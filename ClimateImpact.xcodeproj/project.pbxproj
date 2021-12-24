@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229827764EDD00B552F4 /* AppDelegate.swift */; };
 		F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229A27764EDD00B552F4 /* SceneDelegate.swift */; };
-		F42E229D27764EDD00B552F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229C27764EDD00B552F4 /* ViewController.swift */; };
+		F42E229D27764EDD00B552F4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */; };
 		F42E22A027764EDD00B552F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42E229E27764EDD00B552F4 /* Main.storyboard */; };
 		F42E22A227764EE000B552F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42E22A127764EE000B552F4 /* Assets.xcassets */; };
 		F42E22A527764EE000B552F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42E22A327764EE000B552F4 /* LaunchScreen.storyboard */; };
 		F42E22B027764EE100B552F4 /* ClimateImpactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22AF27764EE100B552F4 /* ClimateImpactTests.swift */; };
 		F42E22BB27764EE100B552F4 /* ClimateImpactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22BA27764EE100B552F4 /* ClimateImpactUITests.swift */; };
+		F42E22ED2776879E00B552F4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22EC2776879E00B552F4 /* LogInViewController.swift */; };
+		F42E22F22776880B00B552F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22F12776880B00B552F4 /* SignUpViewController.swift */; };
+		F42E22F72776883400B552F4 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22F62776883400B552F4 /* DashboardViewController.swift */; };
+		F42E22FC2776885D00B552F4 /* RiskMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */; };
+		F42E23012776888A00B552F4 /* FootprintMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23002776888A00B552F4 /* FootprintMapViewController.swift */; };
+		F42E23062776891100B552F4 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23052776891100B552F4 /* ChartViewController.swift */; };
+		F42E230B2776893100B552F4 /* RiskIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E230A2776893100B552F4 /* RiskIndexViewController.swift */; };
+		F42E23102776895000B552F4 /* FootprintIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,7 @@
 		F42E229527764EDD00B552F4 /* ClimateImpact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateImpact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42E229827764EDD00B552F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F42E229A27764EDD00B552F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F42E229C27764EDD00B552F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F42E229F27764EDD00B552F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F42E22A127764EE000B552F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42E22A427764EE000B552F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		F42E22B627764EE100B552F4 /* ClimateImpactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateImpactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42E22BA27764EE100B552F4 /* ClimateImpactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateImpactUITests.swift; sourceTree = "<group>"; };
 		F42E22BC27764EE100B552F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42E22EC2776879E00B552F4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F42E22F12776880B00B552F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F42E22F62776883400B552F4 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskMapViewController.swift; sourceTree = "<group>"; };
+		F42E23002776888A00B552F4 /* FootprintMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintMapViewController.swift; sourceTree = "<group>"; };
+		F42E23052776891100B552F4 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		F42E230A2776893100B552F4 /* RiskIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskIndexViewController.swift; sourceTree = "<group>"; };
+		F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintIndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,19 @@
 			children = (
 				F42E229827764EDD00B552F4 /* AppDelegate.swift */,
 				F42E229A27764EDD00B552F4 /* SceneDelegate.swift */,
-				F42E229C27764EDD00B552F4 /* ViewController.swift */,
 				F42E229E27764EDD00B552F4 /* Main.storyboard */,
 				F42E22A127764EE000B552F4 /* Assets.xcassets */,
 				F42E22A327764EE000B552F4 /* LaunchScreen.storyboard */,
 				F42E22A627764EE000B552F4 /* Info.plist */,
+				F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */,
+				F42E22EC2776879E00B552F4 /* LogInViewController.swift */,
+				F42E22F12776880B00B552F4 /* SignUpViewController.swift */,
+				F42E22F62776883400B552F4 /* DashboardViewController.swift */,
+				F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */,
+				F42E23002776888A00B552F4 /* FootprintMapViewController.swift */,
+				F42E23052776891100B552F4 /* ChartViewController.swift */,
+				F42E230A2776893100B552F4 /* RiskIndexViewController.swift */,
+				F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */,
 			);
 			path = ClimateImpact;
 			sourceTree = "<group>";
@@ -258,9 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42E229D27764EDD00B552F4 /* ViewController.swift in Sources */,
+				F42E230B2776893100B552F4 /* RiskIndexViewController.swift in Sources */,
+				F42E22ED2776879E00B552F4 /* LogInViewController.swift in Sources */,
+				F42E22F72776883400B552F4 /* DashboardViewController.swift in Sources */,
+				F42E23012776888A00B552F4 /* FootprintMapViewController.swift in Sources */,
+				F42E22FC2776885D00B552F4 /* RiskMapViewController.swift in Sources */,
+				F42E23102776895000B552F4 /* FootprintIndexViewController.swift in Sources */,
+				F42E229D27764EDD00B552F4 /* WelcomeViewController.swift in Sources */,
+				F42E23062776891100B552F4 /* ChartViewController.swift in Sources */,
 				F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */,
 				F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */,
+				F42E22F22776880B00B552F4 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
