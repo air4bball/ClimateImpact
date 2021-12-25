@@ -8,12 +8,14 @@
 import UIKit
 
 class DashboardViewController: UIViewController {
-
+    
+    @IBOutlet weak var image: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let photo = UIImage(named: "Universal")
-        let ImageView = UIImageView(image: photo)
+        let photo = UIImage(named: "Image")
+        image = UIImageView(image: photo)
         
     }
     
