@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -34,8 +35,15 @@
                                     <segue destination="FcY-av-aII" kind="show" id="BOW-dd-ikb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUc-Cw-BWK">
-                                <rect key="frame" x="58" y="479" width="299" height="82"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lT-KH-K1J">
+                                <rect key="frame" x="0.0" y="88" width="414" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="45"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eR-vc-vz2">
+                                <rect key="frame" x="58" y="512" width="299" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
@@ -48,16 +56,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="VUm-UK-Gda" kind="show" id="Aon-mQ-cs7"/>
+                                    <segue destination="VUm-UK-Gda" kind="show" id="Nvz-FI-dKd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Impact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lT-KH-K1J">
-                                <rect key="frame" x="0.0" y="88" width="414" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="45"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -140,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5z-fj-nkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8695652173915" y="65.625"/>
+            <point key="canvasLocation" x="1513" y="63"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="kI5-Hg-aE5">
@@ -220,8 +221,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonSignUp:" destination="VUm-UK-Gda" eventType="touchUpInside" id="zdv-Ht-DVd"/>
-                                    <segue destination="HDC-os-Hu3" kind="show" identifier="First Sign Up" id="A9p-Q7-XUW"/>
+                                    <segue destination="HDC-os-Hu3" kind="show" id="eDI-BZ-Uuc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMr-mM-koT">
@@ -236,17 +236,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="5aX-3T-Smc"/>
-                    <connections>
-                        <outlet property="city" destination="ygd-ad-11W" id="HJ8-Qj-1tZ"/>
-                        <outlet property="password" destination="8Vv-39-UCe" id="w2m-1y-ghc"/>
-                        <outlet property="stateAndZip" destination="hXT-Ef-52n" id="yk7-Wh-Rh8"/>
-                        <outlet property="street" destination="UJH-JY-3jk" id="HkE-i9-Vyi"/>
-                        <outlet property="username" destination="8Vv-39-UCe" id="YBa-T7-8E3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J97-1q-J9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2326.0869565217395" y="65.625"/>
+            <point key="canvasLocation" x="2325" y="63"/>
         </scene>
         <!--Home-->
         <scene sceneID="f3O-Ni-OIu">
@@ -307,7 +300,7 @@
                         <segue destination="EMS-lw-y9I" kind="relationship" relationship="viewControllers" id="16F-cT-rBt"/>
                         <segue destination="XGs-PP-SnP" kind="relationship" relationship="viewControllers" id="qVQ-MK-tHh"/>
                         <segue destination="3ul-iO-M0j" kind="relationship" relationship="viewControllers" id="fyr-pe-SdK"/>
-                        <segue destination="kkt-UP-W79" kind="relationship" relationship="viewControllers" id="DyI-Yb-Mb6"/>
+                        <segue destination="zEb-YR-NDN" kind="relationship" relationship="viewControllers" id="XLP-Ho-fVD"/>
                         <segue destination="dgz-wa-Orp" kind="relationship" relationship="viewControllers" id="eu8-9c-qan"/>
                     </connections>
                 </tabBarController>
@@ -316,29 +309,29 @@
             <point key="canvasLocation" x="4738" y="-648"/>
         </scene>
         <!--Risk Map-->
-        <scene sceneID="n4J-Xg-hct">
+        <scene sceneID="DUh-i0-dKJ">
             <objects>
-                <viewController id="kkt-UP-W79" customClass="RiskMapViewController" customModule="ClimateImpact" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eBb-H7-cgz" customClass="RiskMapViewController" customModule="ClimateImpact" customModuleProvider="target">
+                <viewController id="zEb-YR-NDN" customClass="RiskMapViewController" customModule="ClimateImpact" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jYP-C6-pci">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ffw-RN-uqT">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="d34-Ka-PPy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="A0z-VY-X1R"/>
+                        <viewLayoutGuide key="safeArea" id="vUC-BR-V7d"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <connections>
-                            <outlet property="riskMap" destination="ffw-RN-uqT" id="cYM-81-1V6"/>
-                        </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Risk Map" id="c9n-U3-Mso"/>
+                    <tabBarItem key="tabBarItem" title="Risk Map" id="iZ5-rc-AMh"/>
+                    <connections>
+                        <outlet property="riskMap" destination="d34-Ka-PPy" id="kAj-Id-xBU"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ic-6e-C5D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlD-Ns-qaI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3879.7101449275365" y="62.946428571428569"/>
+            <point key="canvasLocation" x="3934.7826086956525" y="62.946428571428569"/>
         </scene>
         <!--Footprint Map-->
         <scene sceneID="ij9-8e-fU4">
@@ -438,7 +431,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IYw-LX-5RY" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IYw-LX-5RY" id="yZn-wL-DKw">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
@@ -500,7 +493,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Jt-Ur-rbq" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Jt-Ur-rbq" id="LX4-bx-qdP">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
