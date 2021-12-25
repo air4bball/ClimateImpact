@@ -1,0 +1,6 @@
+framework module Pods_ClimateImpact_ClimateImpactUITests {
+  umbrella header "Pods-ClimateImpact-ClimateImpactUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
