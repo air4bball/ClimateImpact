@@ -84,6 +84,7 @@
 		F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = ElectricityByCounty.csv; sourceTree = SOURCE_ROOT; };
 		F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorsTableViewCell.swift; sourceTree = "<group>"; };
 		F42E23802777B15A00B552F4 /* PredictedElectricity.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = PredictedElectricity.csv; sourceTree = SOURCE_ROOT; };
+		F42E23892777C57400B552F4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +119,7 @@
 		5FD08D6636E97789E67C35D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F42E23892777C57400B552F4 /* libsqlite3.0.tbd */,
 				DCB33438E8C2328568A1F44C /* Pods_ClimateImpact.framework */,
 				985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */,
 				CE1324C9F6CE723E56FCB3B4 /* Pods_ClimateImpactTests.framework */,

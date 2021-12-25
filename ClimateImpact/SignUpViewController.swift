@@ -26,5 +26,15 @@ class SignUpViewController: UIViewController {
 //        pwd.isSecureTextEntry.toggle()
 //    }
     
+    @IBAction func buttonSignUp(_ sender: Any) {
+        if (username.text == "" || password.text == "") {
+            
+        } else {
+            performSegue(withIdentifier: "First Sign Up", sender: nil)
+        }
+    }
+    
+    
+    
 }
 
