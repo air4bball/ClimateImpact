@@ -18,7 +18,17 @@ class LogInViewController: UIViewController {
     }
     
     
-
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if (identifier == "Log In") {
+            if (username.text != "" && password.text != "") {
+                return true
+            } else {
+                return false
+            }
+        } else {
+            return false
+        }
+    }
 
 }
 

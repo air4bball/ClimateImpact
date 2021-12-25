@@ -38,6 +38,18 @@ class SignUpQsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         pickerData = ["Electric Car", "Gas Car", "Public Transportation", "Bike"]
     
     }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if (identifier == "Second Sign Up") {
+            if (county.text != "" && commute.text != "") {
+                return true
+            } else {
+                return false
+            }
+        } else {
+            return false
+        }
+    }
 
 
 }
