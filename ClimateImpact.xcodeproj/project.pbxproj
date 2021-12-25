@@ -27,6 +27,9 @@
 		F42E23462776C4C400B552F4 /* RiskIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */; };
 		F42E234E2776C53C00B552F4 /* FootprintIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */; };
 		F42E236D27779E5A00B552F4 /* SignUpQsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */; };
+		F42E23732777A8D500B552F4 /* ElectricityByCounty.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */; };
+		F42E237C2777AF0F00B552F4 /* FactorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */; };
+		F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23802777B15A00B552F4 /* PredictedElectricity.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,9 @@
 		F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskIndexViewController.swift; sourceTree = "<group>"; };
 		F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintIndexViewController.swift; sourceTree = "<group>"; };
 		F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQsViewControllers.swift; sourceTree = "<group>"; };
+		F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = ElectricityByCounty.csv; sourceTree = SOURCE_ROOT; };
+		F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorsTableViewCell.swift; sourceTree = "<group>"; };
+		F42E23802777B15A00B552F4 /* PredictedElectricity.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = PredictedElectricity.csv; sourceTree = SOURCE_ROOT; };
 		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +163,8 @@
 		F42E229727764EDD00B552F4 /* ClimateImpact */ = {
 			isa = PBXGroup;
 			children = (
+				F42E23802777B15A00B552F4 /* PredictedElectricity.csv */,
+				F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */,
 				F42E229827764EDD00B552F4 /* AppDelegate.swift */,
 				F42E229A27764EDD00B552F4 /* SceneDelegate.swift */,
 				F42E229E27764EDD00B552F4 /* Main.storyboard */,
@@ -166,13 +174,14 @@
 				F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */,
 				F42E22EC2776879E00B552F4 /* LogInViewController.swift */,
 				F42E22F12776880B00B552F4 /* SignUpViewController.swift */,
+				F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */,
 				F42E22F62776883400B552F4 /* DashboardViewController.swift */,
 				F42E23052776891100B552F4 /* ChartViewController.swift */,
 				F42E233B2776C2B100B552F4 /* RiskMapViewController.swift */,
 				F42E23402776C2F700B552F4 /* FootprintMapViewController.swift */,
 				F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */,
 				F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */,
-				F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */,
+				F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */,
 			);
 			path = ClimateImpact;
 			sourceTree = "<group>";
@@ -306,6 +315,8 @@
 				F42E22A527764EE000B552F4 /* LaunchScreen.storyboard in Resources */,
 				F42E22A227764EE000B552F4 /* Assets.xcassets in Resources */,
 				F42E22A027764EDD00B552F4 /* Main.storyboard in Resources */,
+				F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */,
+				F42E23732777A8D500B552F4 /* ElectricityByCounty.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +453,7 @@
 				F42E23062776891100B552F4 /* ChartViewController.swift in Sources */,
 				F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */,
 				F42E236D27779E5A00B552F4 /* SignUpQsViewControllers.swift in Sources */,
+				F42E237C2777AF0F00B552F4 /* FactorsTableViewCell.swift in Sources */,
 				F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */,
 				F42E23412776C2F700B552F4 /* FootprintMapViewController.swift in Sources */,
 				F42E22F22776880B00B552F4 /* SignUpViewController.swift in Sources */,

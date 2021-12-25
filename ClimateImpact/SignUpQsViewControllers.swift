@@ -8,6 +8,14 @@
 import UIKit
 
 class SignUpQsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
+    @IBOutlet weak var county: UITextField!
+    @IBOutlet weak var commute: UITextField!
+    @IBOutlet weak var transportPicker: UIPickerView!
+    
+    var pickerData: [String] = [String]()
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -19,11 +27,6 @@ class SignUpQsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[row]
     }
-
-
-    @IBOutlet weak var transportPicker: UIPickerView!
-    
-    var pickerData: [String] = [String]()
     
     
     override func viewDidLoad() {

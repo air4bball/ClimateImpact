@@ -133,6 +133,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="JaR-fO-wtH"/>
+                    <connections>
+                        <outlet property="password" destination="sCY-FF-z1c" id="GPo-bl-iIU"/>
+                        <outlet property="username" destination="1QJ-rf-nqU" id="vTp-xM-RYI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5z-fj-nkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -231,6 +235,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="5aX-3T-Smc"/>
+                    <connections>
+                        <outlet property="city" destination="ygd-ad-11W" id="HJ8-Qj-1tZ"/>
+                        <outlet property="password" destination="8Vv-39-UCe" id="w2m-1y-ghc"/>
+                        <outlet property="stateAndZip" destination="hXT-Ef-52n" id="yk7-Wh-Rh8"/>
+                        <outlet property="street" destination="UJH-JY-3jk" id="HkE-i9-Vyi"/>
+                        <outlet property="username" destination="8Vv-39-UCe" id="YBa-T7-8E3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J97-1q-J9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -318,6 +329,9 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A0z-VY-X1R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outlet property="riskMap" destination="F77-aN-nuz" id="xoI-RC-FcS"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Risk Map" id="c9n-U3-Mso"/>
                 </viewController>
@@ -342,6 +356,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Footprint Map" id="wO1-6p-KGi"/>
+                    <connections>
+                        <outlet property="footprintMap" destination="mqP-ZO-t3G" id="pGh-pE-Hbu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dic-hM-JYG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -419,29 +436,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IYw-LX-5RY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IYw-LX-5RY" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IYw-LX-5RY" id="yZn-wL-DKw">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtZ-jN-Mqh">
+                                                    <rect key="frame" x="16" y="11" width="253" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dNn-st-P5N">
-                                        <rect key="frame" x="0.0" y="71.5" width="285" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dNn-st-P5N" id="V0Y-FV-1ER">
-                                            <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cfb-TY-t85">
-                                        <rect key="frame" x="0.0" y="115" width="285" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cfb-TY-t85" id="w4p-ay-MXC">
-                                            <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="risk" destination="NtZ-jN-Mqh" id="tFU-B1-rPz"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -450,10 +463,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Risk Index" id="Yad-qJ-dmC"/>
+                    <connections>
+                        <outlet property="indexBar" destination="9bj-Yl-b5g" id="VLW-Sa-qT5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rd-BB-kuY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5590" y="66"/>
+            <point key="canvasLocation" x="5589.8550724637689" y="65.625"/>
         </scene>
         <!--Footprint Index-->
         <scene sceneID="pnU-rm-Fbr">
@@ -482,29 +498,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Jt-Ur-rbq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Jt-Ur-rbq" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Jt-Ur-rbq" id="LX4-bx-qdP">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ot6-a6-g8p">
+                                                    <rect key="frame" x="16" y="11" width="253" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NC7-nG-T7M">
-                                        <rect key="frame" x="0.0" y="71.5" width="285" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NC7-nG-T7M" id="NKq-m6-YVj">
-                                            <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eoY-CG-LIf">
-                                        <rect key="frame" x="0.0" y="115" width="285" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eoY-CG-LIf" id="Lcc-ni-8JV">
-                                            <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contributor" destination="LX4-bx-qdP" id="zbE-hF-vGN"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -613,6 +625,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="svR-uI-pBw"/>
                     <connections>
+                        <outlet property="commute" destination="UfS-Hn-Hea" id="hDZ-cf-TjF"/>
+                        <outlet property="county" destination="L6W-Da-TkM" id="Ar8-SS-dqk"/>
                         <outlet property="transportPicker" destination="8Mc-2Y-5D1" id="7Ad-g4-7tZ"/>
                     </connections>
                 </viewController>
@@ -622,7 +636,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ban-YX-8j2"/>
+        <segue reference="XKN-7n-jR7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image-1" width="600" height="546"/>
