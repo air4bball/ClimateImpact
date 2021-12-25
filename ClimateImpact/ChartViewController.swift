@@ -5,10 +5,9 @@
 //  Created by SrikarP on 12/24/21.
 //
 
-import Charts
 import UIKit
 
-class ChartViewController: UIViewController, ChartViewDelegate {
+class ChartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
