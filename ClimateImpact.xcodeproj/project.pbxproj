@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161FCA22AB0C0CA359BCDDF0 /* Pods_ClimateImpactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1324C9F6CE723E56FCB3B4 /* Pods_ClimateImpactTests.framework */; };
+		E3E689E0266E5064D949F60F /* Pods_ClimateImpact_ClimateImpactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */; };
+		F20EE0B77246011AAB7162A7 /* Pods_ClimateImpact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB33438E8C2328568A1F44C /* Pods_ClimateImpact.framework */; };
 		F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229827764EDD00B552F4 /* AppDelegate.swift */; };
 		F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229A27764EDD00B552F4 /* SceneDelegate.swift */; };
 		F42E229D27764EDD00B552F4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */; };
@@ -43,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C44FE96F5E529AB8FB6A921 /* Pods-ClimateImpact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact.release.xcconfig"; path = "Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact.release.xcconfig"; sourceTree = "<group>"; };
+		698793355FE09C280B7AE3A2 /* Pods-ClimateImpact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact.debug.xcconfig"; sourceTree = "<group>"; };
+		83834129A10BAC393B867821 /* Pods-ClimateImpactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpactTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpactTests/Pods-ClimateImpactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateImpact_ClimateImpactUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BFB2AFD91C018B143EA8A5 /* Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C639CA5551DB28E5F3FDFB25 /* Pods-ClimateImpactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpactTests.release.xcconfig"; path = "Target Support Files/Pods-ClimateImpactTests/Pods-ClimateImpactTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE1324C9F6CE723E56FCB3B4 /* Pods_ClimateImpactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateImpactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB33438E8C2328568A1F44C /* Pods_ClimateImpact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateImpact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42E229527764EDD00B552F4 /* ClimateImpact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateImpact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42E229827764EDD00B552F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F42E229A27764EDD00B552F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +76,7 @@
 		F42E23402776C2F700B552F4 /* FootprintMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintMapViewController.swift; sourceTree = "<group>"; };
 		F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskIndexViewController.swift; sourceTree = "<group>"; };
 		F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintIndexViewController.swift; sourceTree = "<group>"; };
+		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20EE0B77246011AAB7162A7 /* Pods_ClimateImpact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161FCA22AB0C0CA359BCDDF0 /* Pods_ClimateImpactTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +100,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E689E0266E5064D949F60F /* Pods_ClimateImpact_ClimateImpactUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FD08D6636E97789E67C35D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB33438E8C2328568A1F44C /* Pods_ClimateImpact.framework */,
+				985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */,
+				CE1324C9F6CE723E56FCB3B4 /* Pods_ClimateImpactTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3D1D066675B7E264FDE5EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				698793355FE09C280B7AE3A2 /* Pods-ClimateImpact.debug.xcconfig */,
+				4C44FE96F5E529AB8FB6A921 /* Pods-ClimateImpact.release.xcconfig */,
+				FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */,
+				B5BFB2AFD91C018B143EA8A5 /* Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig */,
+				83834129A10BAC393B867821 /* Pods-ClimateImpactTests.debug.xcconfig */,
+				C639CA5551DB28E5F3FDFB25 /* Pods-ClimateImpactTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F42E228C27764EDD00B552F4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +138,8 @@
 				F42E22AE27764EE100B552F4 /* ClimateImpactTests */,
 				F42E22B927764EE100B552F4 /* ClimateImpactUITests */,
 				F42E229627764EDD00B552F4 /* Products */,
+				B3D1D066675B7E264FDE5EBC /* Pods */,
+				5FD08D6636E97789E67C35D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F42E22BF27764EE100B552F4 /* Build configuration list for PBXNativeTarget "ClimateImpact" */;
 			buildPhases = (
+				C810798340F90648F703400D /* [CP] Check Pods Manifest.lock */,
 				F42E229127764EDD00B552F4 /* Sources */,
 				F42E229227764EDD00B552F4 /* Frameworks */,
 				F42E229327764EDD00B552F4 /* Resources */,
+				E17842E8BBB75A2B6842FBB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F42E22C227764EE100B552F4 /* Build configuration list for PBXNativeTarget "ClimateImpactTests" */;
 			buildPhases = (
+				BFED72EEAB5ECEDB649E3DEC /* [CP] Check Pods Manifest.lock */,
 				F42E22A727764EE100B552F4 /* Sources */,
 				F42E22A827764EE100B552F4 /* Frameworks */,
 				F42E22A927764EE100B552F4 /* Resources */,
@@ -194,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F42E22C527764EE100B552F4 /* Build configuration list for PBXNativeTarget "ClimateImpactUITests" */;
 			buildPhases = (
+				3C18D227CD09753521634196 /* [CP] Check Pods Manifest.lock */,
 				F42E22B227764EE100B552F4 /* Sources */,
 				F42E22B327764EE100B552F4 /* Frameworks */,
 				F42E22B427764EE100B552F4 /* Resources */,
+				E48F86932FFE51CF936E7057 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +322,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C18D227CD09753521634196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimateImpact-ClimateImpactUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFED72EEAB5ECEDB649E3DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimateImpactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C810798340F90648F703400D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimateImpact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17842E8BBB75A2B6842FBB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E48F86932FFE51CF936E7057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F42E229127764EDD00B552F4 /* Sources */ = {
@@ -465,6 +614,7 @@
 		};
 		F42E22C027764EE100B552F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698793355FE09C280B7AE3A2 /* Pods-ClimateImpact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +633,7 @@
 		};
 		F42E22C127764EE100B552F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C44FE96F5E529AB8FB6A921 /* Pods-ClimateImpact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,6 +652,7 @@
 		};
 		F42E22C327764EE100B552F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83834129A10BAC393B867821 /* Pods-ClimateImpactTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +674,7 @@
 		};
 		F42E22C427764EE100B552F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C639CA5551DB28E5F3FDFB25 /* Pods-ClimateImpactTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +696,7 @@
 		};
 		F42E22C627764EE100B552F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +716,7 @@
 		};
 		F42E22C727764EE100B552F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BFB2AFD91C018B143EA8A5 /* Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -14,8 +14,9 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let photo = UIImage(named: "Image")
+        let photo = UIImage(named: "Image-1")
         image = UIImageView(image: photo)
+        
         
     }
     
