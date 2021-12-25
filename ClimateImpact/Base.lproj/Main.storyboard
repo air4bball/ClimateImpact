@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -329,9 +330,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A0z-VY-X1R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <connections>
-                            <outlet property="riskMap" destination="F77-aN-nuz" id="xoI-RC-FcS"/>
-                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Risk Map" id="c9n-U3-Mso"/>
                 </viewController>
@@ -437,7 +435,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IYw-LX-5RY" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IYw-LX-5RY" id="yZn-wL-DKw">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>
@@ -499,7 +497,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Jt-Ur-rbq" customClass="FactorsTableViewCell" customModule="ClimateImpact" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="285" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="285" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Jt-Ur-rbq" id="LX4-bx-qdP">
                                             <rect key="frame" x="0.0" y="0.0" width="285" height="43.5"/>

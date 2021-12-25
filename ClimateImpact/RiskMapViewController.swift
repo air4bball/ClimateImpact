@@ -10,7 +10,7 @@ import MapKit
 
 class RiskMapViewController: UIViewController {
 
-    @IBOutlet weak var riskMap: MKMapView!
+    //@IBOutlet weak var riskMap: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
