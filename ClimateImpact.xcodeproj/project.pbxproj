@@ -26,6 +26,7 @@
 		F42E23412776C2F700B552F4 /* FootprintMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23402776C2F700B552F4 /* FootprintMapViewController.swift */; };
 		F42E23462776C4C400B552F4 /* RiskIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */; };
 		F42E234E2776C53C00B552F4 /* FootprintIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */; };
+		F42E236D27779E5A00B552F4 /* SignUpQsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		F42E23402776C2F700B552F4 /* FootprintMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintMapViewController.swift; sourceTree = "<group>"; };
 		F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskIndexViewController.swift; sourceTree = "<group>"; };
 		F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintIndexViewController.swift; sourceTree = "<group>"; };
+		F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQsViewControllers.swift; sourceTree = "<group>"; };
 		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 				F42E23402776C2F700B552F4 /* FootprintMapViewController.swift */,
 				F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */,
 				F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */,
+				F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */,
 			);
 			path = ClimateImpact;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				F42E234E2776C53C00B552F4 /* FootprintIndexViewController.swift in Sources */,
 				F42E23062776891100B552F4 /* ChartViewController.swift in Sources */,
 				F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */,
+				F42E236D27779E5A00B552F4 /* SignUpQsViewControllers.swift in Sources */,
 				F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */,
 				F42E23412776C2F700B552F4 /* FootprintMapViewController.swift in Sources */,
 				F42E22F22776880B00B552F4 /* SignUpViewController.swift in Sources */,
