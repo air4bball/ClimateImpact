@@ -109,6 +109,19 @@
                     <view key="view" contentMode="scaleToFill" id="Do6-Uc-JVn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvz-p2-TK8">
+                                <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Home" id="BFj-S1-UHa"/>
+                                    <tabBarItem title="Trend" id="Gxf-vM-G2H"/>
+                                    <tabBarItem title="Map" id="Hnu-dI-Mbo"/>
+                                    <tabBarItem title="Report" id="BRN-Ro-CQC"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="0if-J2-pc8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -117,13 +130,26 @@
             </objects>
             <point key="canvasLocation" x="3100.0000000000005" y="62.946428571428569"/>
         </scene>
-        <!--Risk Map View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="n4J-Xg-hct">
             <objects>
-                <viewController id="kkt-UP-W79" customClass="RiskMapViewController" customModule="ClimateImpact" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kkt-UP-W79" customClass="MapViewController" customModule="ClimateImpact" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eBb-H7-cgz" customClass="RiskMapViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ms-m0-Qkp">
+                                <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Home" id="PFh-nq-0SZ"/>
+                                    <tabBarItem title="Trend" id="uHZ-3L-8zK"/>
+                                    <tabBarItem title="Map" id="R5U-8G-iwN"/>
+                                    <tabBarItem title="Report" id="OV5-co-iqL"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="A0z-VY-X1R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -132,21 +158,6 @@
             </objects>
             <point key="canvasLocation" x="3879.7101449275365" y="62.946428571428569"/>
         </scene>
-        <!--Footprint Map View Controller-->
-        <scene sceneID="ouG-jD-bd2">
-            <objects>
-                <viewController id="ZNa-zU-KA2" customClass="FootprintMapViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8ec-TD-n9d">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="qqM-YX-q44"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wno-E0-ejg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4673.913043478261" y="65.625"/>
-        </scene>
         <!--Chart View Controller-->
         <scene sceneID="Yrc-V3-KaS">
             <objects>
@@ -154,43 +165,54 @@
                     <view key="view" contentMode="scaleToFill" id="Cpu-5O-oc9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFh-8l-J6F">
+                                <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Home" id="UbD-lK-5P4"/>
+                                    <tabBarItem title="Trend" id="9br-Uh-Cca"/>
+                                    <tabBarItem title="Map" id="OHG-Yi-Jtw"/>
+                                    <tabBarItem title="Report" id="YRv-IT-rCp"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="H5s-cc-ykP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9X-4U-LOr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5513.04347826087" y="65.625"/>
+            <point key="canvasLocation" x="4729" y="63"/>
         </scene>
-        <!--Risk Index View Controller-->
+        <!--Index View Controller-->
         <scene sceneID="boi-mP-2ih">
             <objects>
-                <viewController id="XGs-PP-SnP" customClass="RiskIndexViewController" sceneMemberID="viewController">
+                <viewController id="XGs-PP-SnP" customClass="IndexViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZPA-6f-zQ5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3i-ML-JZW">
+                                <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Home" id="pw8-FN-u7g"/>
+                                    <tabBarItem title="Trend" id="HZP-k7-r51"/>
+                                    <tabBarItem title="Map" id="miB-Rp-TsX"/>
+                                    <tabBarItem title="Report" id="HjM-UJ-KlM"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2zl-zM-B9J"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rd-BB-kuY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6337.68115942029" y="65.625"/>
-        </scene>
-        <!--Footprint Index View Controller-->
-        <scene sceneID="hTC-yq-w4g">
-            <objects>
-                <viewController id="aSf-ws-zso" customClass="FootprintIndexViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="36i-nK-hGM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="0p3-P3-kEh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="deK-wY-oYf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7147.826086956522" y="62.946428571428569"/>
+            <point key="canvasLocation" x="5568" y="63"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fNp-cx-6YI">

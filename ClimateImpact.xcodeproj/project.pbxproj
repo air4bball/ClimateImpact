@@ -18,11 +18,9 @@
 		F42E22ED2776879E00B552F4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22EC2776879E00B552F4 /* LogInViewController.swift */; };
 		F42E22F22776880B00B552F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22F12776880B00B552F4 /* SignUpViewController.swift */; };
 		F42E22F72776883400B552F4 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22F62776883400B552F4 /* DashboardViewController.swift */; };
-		F42E22FC2776885D00B552F4 /* RiskMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */; };
-		F42E23012776888A00B552F4 /* FootprintMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23002776888A00B552F4 /* FootprintMapViewController.swift */; };
 		F42E23062776891100B552F4 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23052776891100B552F4 /* ChartViewController.swift */; };
-		F42E230B2776893100B552F4 /* RiskIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E230A2776893100B552F4 /* RiskIndexViewController.swift */; };
-		F42E23102776895000B552F4 /* FootprintIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */; };
+		F42E23242776A5DE00B552F4 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23232776A5DE00B552F4 /* IndexViewController.swift */; };
+		F42E232C2776A61800B552F4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E232B2776A61800B552F4 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +58,9 @@
 		F42E22EC2776879E00B552F4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		F42E22F12776880B00B552F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F42E22F62776883400B552F4 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskMapViewController.swift; sourceTree = "<group>"; };
-		F42E23002776888A00B552F4 /* FootprintMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintMapViewController.swift; sourceTree = "<group>"; };
 		F42E23052776891100B552F4 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		F42E230A2776893100B552F4 /* RiskIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskIndexViewController.swift; sourceTree = "<group>"; };
-		F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintIndexViewController.swift; sourceTree = "<group>"; };
+		F42E23232776A5DE00B552F4 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		F42E232B2776A61800B552F4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +121,9 @@
 				F42E22EC2776879E00B552F4 /* LogInViewController.swift */,
 				F42E22F12776880B00B552F4 /* SignUpViewController.swift */,
 				F42E22F62776883400B552F4 /* DashboardViewController.swift */,
-				F42E22FB2776885D00B552F4 /* RiskMapViewController.swift */,
-				F42E23002776888A00B552F4 /* FootprintMapViewController.swift */,
 				F42E23052776891100B552F4 /* ChartViewController.swift */,
-				F42E230A2776893100B552F4 /* RiskIndexViewController.swift */,
-				F42E230F2776895000B552F4 /* FootprintIndexViewController.swift */,
+				F42E23232776A5DE00B552F4 /* IndexViewController.swift */,
+				F42E232B2776A61800B552F4 /* MapViewController.swift */,
 			);
 			path = ClimateImpact;
 			sourceTree = "<group>";
@@ -282,13 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42E230B2776893100B552F4 /* RiskIndexViewController.swift in Sources */,
 				F42E22ED2776879E00B552F4 /* LogInViewController.swift in Sources */,
 				F42E22F72776883400B552F4 /* DashboardViewController.swift in Sources */,
-				F42E23012776888A00B552F4 /* FootprintMapViewController.swift in Sources */,
-				F42E22FC2776885D00B552F4 /* RiskMapViewController.swift in Sources */,
-				F42E23102776895000B552F4 /* FootprintIndexViewController.swift in Sources */,
+				F42E23242776A5DE00B552F4 /* IndexViewController.swift in Sources */,
 				F42E229D27764EDD00B552F4 /* WelcomeViewController.swift in Sources */,
+				F42E232C2776A61800B552F4 /* MapViewController.swift in Sources */,
 				F42E23062776891100B552F4 /* ChartViewController.swift in Sources */,
 				F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */,
 				F42E229B27764EDD00B552F4 /* SceneDelegate.swift in Sources */,

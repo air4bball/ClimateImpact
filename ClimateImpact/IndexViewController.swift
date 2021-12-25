@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FootprintIndexViewController: UIViewController {
+class IndexViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
