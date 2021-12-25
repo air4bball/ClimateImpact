@@ -9,7 +9,7 @@ import UIKit
 
 class DashboardViewController: UIViewController {
     
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet var image: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
