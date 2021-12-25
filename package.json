@@ -1,0 +1,19 @@
+{
+  "name": "climateimpact",
+  "version": "1.0.0",
+  "description": "app showing carbon footprint and risks in an area",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/air4bball/ClimateImpact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/air4bball/ClimateImpact/issues"
+  },
+  "homepage": "https://github.com/air4bball/ClimateImpact#readme"
+}
