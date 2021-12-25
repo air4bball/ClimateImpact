@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E32-qO-vM0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -102,7 +103,7 @@
             </objects>
             <point key="canvasLocation" x="2326.0869565217395" y="65.625"/>
         </scene>
-        <!--Dashboard View Controller-->
+        <!--Item-->
         <scene sceneID="f3O-Ni-OIu">
             <objects>
                 <viewController id="EMS-lw-y9I" customClass="DashboardViewController" sceneMemberID="viewController">
@@ -125,12 +126,33 @@
                         <viewLayoutGuide key="safeArea" id="0if-J2-pc8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="KnL-z7-cmJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPw-gi-NUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3100.0000000000005" y="62.946428571428569"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="fk3-os-cul">
+            <objects>
+                <tabBarController id="Lnj-oa-ycn" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l9r-G5-UuD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EMS-lw-y9I" kind="relationship" relationship="viewControllers" id="16F-cT-rBt"/>
+                        <segue destination="kkt-UP-W79" kind="relationship" relationship="viewControllers" id="DyI-Yb-Mb6"/>
+                        <segue destination="a3j-1f-EAq" kind="relationship" relationship="viewControllers" id="qga-AX-UIM"/>
+                        <segue destination="XGs-PP-SnP" kind="relationship" relationship="viewControllers" id="qVQ-MK-tHh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRV-Hw-bU4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4251" y="1177"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="n4J-Xg-hct">
             <objects>
                 <viewController id="kkt-UP-W79" customClass="MapViewController" customModule="ClimateImpact" customModuleProvider="target" sceneMemberID="viewController">
@@ -153,12 +175,13 @@
                         <viewLayoutGuide key="safeArea" id="A0z-VY-X1R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="c9n-U3-Mso"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ic-6e-C5D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3879.7101449275365" y="62.946428571428569"/>
         </scene>
-        <!--Chart View Controller-->
+        <!--Item-->
         <scene sceneID="Yrc-V3-KaS">
             <objects>
                 <viewController id="a3j-1f-EAq" customClass="ChartViewController" sceneMemberID="viewController">
@@ -181,12 +204,13 @@
                         <viewLayoutGuide key="safeArea" id="H5s-cc-ykP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="qu2-in-ZWB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9X-4U-LOr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4729" y="63"/>
         </scene>
-        <!--Index View Controller-->
+        <!--Item-->
         <scene sceneID="boi-mP-2ih">
             <objects>
                 <viewController id="XGs-PP-SnP" customClass="IndexViewController" sceneMemberID="viewController">
@@ -209,6 +233,7 @@
                         <viewLayoutGuide key="safeArea" id="2zl-zM-B9J"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Yad-qJ-dmC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rd-BB-kuY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
