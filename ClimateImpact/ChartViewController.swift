@@ -12,6 +12,7 @@ class ChartViewController: UIViewController {
     @IBOutlet weak var Chart: LineChartView!
     
     
+    
     var numbers = [Double](); // data
     var LineChartEntry = [ChartDataEntry]();
     
@@ -38,9 +39,19 @@ class ChartViewController: UIViewController {
         // Do any additional setup after loading the view.
         updateGraph()
         
-        let data = readDataFromCSV(fileName: "PredictedElectricity.csv") ?? "3000"
-        let csvRows = csv(data: data)
-        print("YAY: ", csvRows[1][1])
+        let data = readDataFromCSV(fileName: "PredictedElectricity") ?? "3000"
+        var lines = data.split(separator: "\r\n")
+        
+        print(lines[0])
+        
+        var str = lines[0]
+        
+        var arr = str.split(separator: " ")
+        
+        print(arr[0])
+        
+        // print(lines)
+        
     }
     
     func csv(data: String) -> [[String]] {
