@@ -10,7 +10,7 @@ import MapKit
 
 class FootprintMapViewController: UIViewController {
 
-    @IBOutlet weak var footprintMap: MKMapView!
+    // @IBOutlet weak var footprintMap: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
