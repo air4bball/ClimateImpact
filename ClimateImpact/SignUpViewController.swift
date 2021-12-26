@@ -27,6 +27,9 @@ class SignUpViewController: UIViewController {
         
         
     }
+    var user: User?
+    
+    
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if (identifier == "First Sign Up") {
@@ -41,7 +44,9 @@ class SignUpViewController: UIViewController {
         } else {
             return false
         }
+        var state = DataSaverStruct.details.stateZip.split(separator: " ")
     }
+    
     
     
     
