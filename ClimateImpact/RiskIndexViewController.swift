@@ -23,11 +23,8 @@ class RiskIndexViewController: UIViewController {
     override func viewDidLoad() {
         var sum: Double = 0.0
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         for i in 0..<DataSaverStruct.details.counties.count {
-            //print(DataSaverStruct.details.counties[i] == userCounty)
             if (DataSaverStruct.details.counties[i] == userCounty) {
-                var j = 0
                 var factors = ["", "", ""]
                 for j in 0..<riskIndex[i].count {
                     sum += riskIndex[i][j]
@@ -43,6 +40,13 @@ class RiskIndexViewController: UIViewController {
                 break
             }
         }
+        
+        
+//        let highestCounty = DataSaverStruct.details.counties[avgIndexEachCountyOrdered.firstIndex(of: first)!]
+//        let secondCounty = DataSaverStruct.details.counties[avgIndexEachCountyOrdered.firstIndex(of: second)!]
+//        let thirdCounty = DataSaverStruct.details.counties[avgIndexEachCountyOrdered.firstIndex(of: third)!]
+//        let fourthCounty = DataSaverStruct.details.counties[avgIndexEachCountyOrdered.firstIndex(of: fourth)!]
+//        let fifthCounty = DataSaverStruct.details.counties[avgIndexEachCountyOrdered.firstIndex(of: fifth)!]
     }
     
     
