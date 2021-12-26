@@ -1,19 +1,16 @@
 {
-  "name": "climateimpact",
+  "name": "yes",
   "version": "1.0.0",
-  "description": "app showing carbon footprint and risks in an area",
-  "main": "app.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/air4bball/ClimateImpact.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/air4bball/ClimateImpact/issues"
-  },
-  "homepage": "https://github.com/air4bball/ClimateImpact#readme"
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3"
+  }
 }
