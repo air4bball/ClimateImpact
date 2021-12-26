@@ -17,6 +17,7 @@ class ChartViewController: UIViewController {
     var LineChartEntry = [ChartDataEntry]();
     
     func updateGraph(){
+        
         for i in 0..<numbers.count{
             let value = ChartDataEntry(x:Double(i),y:numbers[i])
             LineChartEntry.append(value)
@@ -37,20 +38,38 @@ class ChartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        updateGraph()
         
         let data = readDataFromCSV(fileName: "PredictedElectricity") ?? "3000"
         var lines = data.split(separator: "\r\n")
         
-        print(lines[0])
         
-        var str = lines[0]
+        var userData = DataSaverStruct.details.county;
         
-        var arr = str.split(separator: " ")
+        for var i in 0..<lines.count{
+            var bigStr = lines[i]
+            
+            var arr = bigStr.split(separator: " ")
+            
+            
+            
         
-        print(arr[0])
+            
+            if (arr[0] == userData){
+                
+                numbers = Array<Double>(stride(from: 1.0, through: 10.0, by: 1.0))
+                
+                for var j in 0...9{
+                    var input = Double(arr[j+1])
+                    
+                    numbers[j] = input ?? 0.0
+                    
+                }
+                
+            }
+            
+        }
         
-        // print(lines)
+        updateGraph()
         
     }
     

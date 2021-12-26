@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		161FCA22AB0C0CA359BCDDF0 /* Pods_ClimateImpactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1324C9F6CE723E56FCB3B4 /* Pods_ClimateImpactTests.framework */; };
+		79A8192027782B8100A30FBB /* ClimateImpact Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A8191F27782B8100A30FBB /* ClimateImpact Logo.png */; };
 		E3E689E0266E5064D949F60F /* Pods_ClimateImpact_ClimateImpactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */; };
 		F20EE0B77246011AAB7162A7 /* Pods_ClimateImpact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB33438E8C2328568A1F44C /* Pods_ClimateImpact.framework */; };
 		F42E229927764EDD00B552F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E229827764EDD00B552F4 /* AppDelegate.swift */; };
@@ -32,7 +33,6 @@
 		F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23802777B15A00B552F4 /* PredictedElectricity.csv */; };
 		F42E23912777EA8400B552F4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E23892777C57400B552F4 /* libsqlite3.0.tbd */; };
 		F42E23A327780AE800B552F4 /* DataSaverStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23A227780AE600B552F4 /* DataSaverStruct.swift */; };
-		F42E23AD2778228300B552F4 /* ClimateImpact Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* Begin PBXFileReference section */
 		4C44FE96F5E529AB8FB6A921 /* Pods-ClimateImpact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact.release.xcconfig"; path = "Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact.release.xcconfig"; sourceTree = "<group>"; };
 		698793355FE09C280B7AE3A2 /* Pods-ClimateImpact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact/Pods-ClimateImpact.debug.xcconfig"; sourceTree = "<group>"; };
+		79A8191F27782B8100A30FBB /* ClimateImpact Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClimateImpact Logo.png"; sourceTree = "<group>"; };
 		83834129A10BAC393B867821 /* Pods-ClimateImpactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpactTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpactTests/Pods-ClimateImpactTests.debug.xcconfig"; sourceTree = "<group>"; };
 		985BBE6485E15B304FFB6CE6 /* Pods_ClimateImpact_ClimateImpactUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateImpact_ClimateImpactUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BFB2AFD91C018B143EA8A5 /* Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +90,6 @@
 		F42E23802777B15A00B552F4 /* PredictedElectricity.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = PredictedElectricity.csv; sourceTree = SOURCE_ROOT; };
 		F42E23892777C57400B552F4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		F42E23A227780AE600B552F4 /* DataSaverStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSaverStruct.swift; sourceTree = "<group>"; };
-		F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ClimateImpact Logo.png"; path = "../../Downloads/ClimateImpact Logo.png"; sourceTree = "<group>"; };
 		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,7 +179,7 @@
 				F42E22A127764EE000B552F4 /* Assets.xcassets */,
 				F42E22A327764EE000B552F4 /* LaunchScreen.storyboard */,
 				F42E22A627764EE000B552F4 /* Info.plist */,
-				F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */,
+				79A8191F27782B8100A30FBB /* ClimateImpact Logo.png */,
 				F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */,
 				F42E22EC2776879E00B552F4 /* LogInViewController.swift */,
 				F42E22F12776880B00B552F4 /* SignUpViewController.swift */,
@@ -325,7 +325,7 @@
 				F42E22A527764EE000B552F4 /* LaunchScreen.storyboard in Resources */,
 				F42E22A227764EE000B552F4 /* Assets.xcassets in Resources */,
 				F42E22A027764EDD00B552F4 /* Main.storyboard in Resources */,
-				F42E23AD2778228300B552F4 /* ClimateImpact Logo.png in Resources */,
+				79A8192027782B8100A30FBB /* ClimateImpact Logo.png in Resources */,
 				F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */,
 				F42E23732777A8D500B552F4 /* ElectricityByCounty.csv in Resources */,
 			);
