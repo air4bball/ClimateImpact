@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CHCSVParser/CHCSVParser.framework
 ${BUILT_PRODUCTS_DIR}/Charts/Charts.framework

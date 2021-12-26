@@ -17,6 +17,7 @@ target 'ClimateImpact' do
   end
 
 pod 'Charts'
+pod 'CHCSVParser', '2.1.0'
 end
 
 

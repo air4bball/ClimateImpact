@@ -2,17 +2,21 @@ PODS:
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - CHCSVParser (2.1.0)
 
 DEPENDENCIES:
   - Charts
+  - CHCSVParser (= 2.1.0)
 
 SPEC REPOS:
   trunk:
     - Charts
+    - CHCSVParser
 
 SPEC CHECKSUMS:
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CHCSVParser: 3bcc7bdb72111a31222e95d57eacceefe4e537e8
 
-PODFILE CHECKSUM: 87190ae07fbc8757b72fc9086bca1bd84414cbc4
+PODFILE CHECKSUM: 5f767afc69b1b454e776d4c8ce93bf6c0862be05
 
 COCOAPODS: 1.10.1
