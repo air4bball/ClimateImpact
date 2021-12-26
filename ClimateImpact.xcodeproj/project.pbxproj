@@ -30,6 +30,7 @@
 		F42E23732777A8D500B552F4 /* ElectricityByCounty.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */; };
 		F42E237C2777AF0F00B552F4 /* FactorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */; };
 		F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23802777B15A00B552F4 /* PredictedElectricity.csv */; };
+		F42E23912777EA8400B552F4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E23892777C57400B552F4 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42E23912777EA8400B552F4 /* libsqlite3.0.tbd in Frameworks */,
 				F20EE0B77246011AAB7162A7 /* Pods_ClimateImpact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

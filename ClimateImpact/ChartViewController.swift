@@ -10,8 +10,8 @@ import Charts
 
 class ChartViewController: UIViewController {
     @IBOutlet weak var Chart: LineChartView!
-    
-    
+
+
     var numbers = [Double](); // data
     var LineChartEntry = [ChartDataEntry]();
     
