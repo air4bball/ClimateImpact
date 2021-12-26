@@ -36,12 +36,14 @@ class SignUpQsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.transportPicker.dataSource = self
         
         pickerData = ["Electric Car", "Gas Car", "Public Transportation", "Bike"]
-    
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if (identifier == "Second Sign Up") {
-            if (county.text != "" && commute.text != "") {
+            if (county.text != "" && commute.text != "" && DataSaverStruct.details.counties.contains(county.text?.uppercased() ?? "")) {
+                DataSaverStruct.details.county = county.text?.uppercased() ?? ""
+                DataSaverStruct.details.commuteTime = (commute.text as! NSString).integerValue
+                DataSaverStruct.details.transport = pickerData[transportPicker.selectedRow(inComponent: 0)]
                 return true
             } else {
                 return false

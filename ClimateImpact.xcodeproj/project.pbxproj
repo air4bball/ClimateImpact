@@ -31,6 +31,8 @@
 		F42E237C2777AF0F00B552F4 /* FactorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */; };
 		F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */ = {isa = PBXBuildFile; fileRef = F42E23802777B15A00B552F4 /* PredictedElectricity.csv */; };
 		F42E23912777EA8400B552F4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E23892777C57400B552F4 /* libsqlite3.0.tbd */; };
+		F42E23A327780AE800B552F4 /* DataSaverStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E23A227780AE600B552F4 /* DataSaverStruct.swift */; };
+		F42E23AD2778228300B552F4 /* ClimateImpact Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +86,10 @@
 		F42E236C27779E5900B552F4 /* SignUpQsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQsViewControllers.swift; sourceTree = "<group>"; };
 		F42E23712777A8D400B552F4 /* ElectricityByCounty.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = ElectricityByCounty.csv; sourceTree = SOURCE_ROOT; };
 		F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorsTableViewCell.swift; sourceTree = "<group>"; };
-		F42E23802777B15A00B552F4 /* PredictedElectricity.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = PredictedElectricity.csv; sourceTree = SOURCE_ROOT; };
+		F42E23802777B15A00B552F4 /* PredictedElectricity.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = PredictedElectricity.csv; sourceTree = SOURCE_ROOT; };
 		F42E23892777C57400B552F4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F42E23A227780AE600B552F4 /* DataSaverStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSaverStruct.swift; sourceTree = "<group>"; };
+		F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ClimateImpact Logo.png"; path = "../../Downloads/ClimateImpact Logo.png"; sourceTree = "<group>"; };
 		FD06DE4F8FCE1C59CFC57C30 /* Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimateImpact-ClimateImpactUITests/Pods-ClimateImpact-ClimateImpactUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +179,7 @@
 				F42E22A127764EE000B552F4 /* Assets.xcassets */,
 				F42E22A327764EE000B552F4 /* LaunchScreen.storyboard */,
 				F42E22A627764EE000B552F4 /* Info.plist */,
+				F42E23AC2778228300B552F4 /* ClimateImpact Logo.png */,
 				F42E229C27764EDD00B552F4 /* WelcomeViewController.swift */,
 				F42E22EC2776879E00B552F4 /* LogInViewController.swift */,
 				F42E22F12776880B00B552F4 /* SignUpViewController.swift */,
@@ -186,6 +191,7 @@
 				F42E23452776C4C400B552F4 /* RiskIndexViewController.swift */,
 				F42E234D2776C53C00B552F4 /* FootprintIndexViewController.swift */,
 				F42E237B2777AF0E00B552F4 /* FactorsTableViewCell.swift */,
+				F42E23A227780AE600B552F4 /* DataSaverStruct.swift */,
 			);
 			path = ClimateImpact;
 			sourceTree = "<group>";
@@ -319,6 +325,7 @@
 				F42E22A527764EE000B552F4 /* LaunchScreen.storyboard in Resources */,
 				F42E22A227764EE000B552F4 /* Assets.xcassets in Resources */,
 				F42E22A027764EDD00B552F4 /* Main.storyboard in Resources */,
+				F42E23AD2778228300B552F4 /* ClimateImpact Logo.png in Resources */,
 				F42E23812777B15A00B552F4 /* PredictedElectricity.csv in Resources */,
 				F42E23732777A8D500B552F4 /* ElectricityByCounty.csv in Resources */,
 			);
@@ -448,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42E23A327780AE800B552F4 /* DataSaverStruct.swift in Sources */,
 				F42E23462776C4C400B552F4 /* RiskIndexViewController.swift in Sources */,
 				F42E22ED2776879E00B552F4 /* LogInViewController.swift in Sources */,
 				F42E22F72776883400B552F4 /* DashboardViewController.swift in Sources */,

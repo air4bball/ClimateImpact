@@ -31,6 +31,9 @@ class SignUpViewController: UIViewController {
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if (identifier == "First Sign Up") {
             if (usernameEntry.text != "" && passwordEntry.text != "" && streetEntry.text != "" && cityEntry.text != "" && stateZipEntry.text != "") {
+                DataSaverStruct.details.street = streetEntry.text ?? ""
+                DataSaverStruct.details.city = cityEntry.text ?? ""
+                DataSaverStruct.details.stateZip = stateZipEntry.text ?? ""
                 return true
             } else {
                 return false
